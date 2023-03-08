@@ -2,8 +2,8 @@
 import random
 number = random.randint(-10000, 10000)
 
-print("Last digit of {} is".format(number), end=" ")
-print("{} and is".format(abs(number % 10)), end=" ")
+print(f"Last digit of {number} is", end=" ")
+print(f"{abs(number % 10)} and is", end=" ")
 
 if number > 5:
     print("greater than 5")
