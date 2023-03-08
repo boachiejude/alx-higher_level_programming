@@ -1,6 +1,11 @@
 #!/usr/bin/python3
 
 def uppercase(string):
+    """Converts a string to uppercase
+
+    Args:
+        string (str): string to convert
+    """
     result = ""
     for char in string:
         if ord(char) >= 97 and ord(char) <= 122:
